@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="author" content="Vinicius Carvalho">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>Carrossel de Imagens</title>
+</head>
+<body>
+    <div class="container">
+        <div class="imagem fade">
+            <img src="img/imagem1.jpeg" alt="Porsche" width="100%">
+        </div>
+        <div class="imagem fade">
+            <img src="img/imagem2.jpeg" alt="Porsche" width="100%">
+        </div>
+        <div class="imagem fade">
+            <img src="img/imagem3.jpeg" alt="Porsche" width="100%">
+        </div>
+        <div class="imagem fade">
+            <img src="img/imagem4.jpeg" alt="Porsche" width="100%">
+        </div>
+        <div class="imagem fade">
+            <img src="img/imagem5.jpeg" alt="Porsche" width="100%">
+        </div>
+        <div class="imagem fade">
+            <img src="img/imagem6.jpeg" alt="Porsche" width="100%">
+        </div>
+        <div class="imagem fade">
+            <img src="img/imagem7.jpeg" alt="Porsche" width="100%">
+        </div>
+
+        <i id="anterior" onClick="mostrarImagem(-1)" class="fa-solid fa-angle-left"></i>
+        <i id="proxima" onClick="mostrarImagem(1)" class="fa-solid fa-angle-right"></i>
+
+        <div class="pontos">
+            <span class="ponto"></span>
+            <span class="ponto"></span>
+            <span class="ponto"></span>
+            <span class="ponto"></span>
+            <span class="ponto"></span>
+            <span class="ponto"></span>
+            <span class="ponto"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
